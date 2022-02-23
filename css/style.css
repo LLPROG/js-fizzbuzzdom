@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 2rem;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.area-boxs {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*class to add */
+
+.box {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    color: white;
+}
+
+
+.fizz {
+    background-color: rgb(21, 0, 139);
+}
+
+.buzz {
+    background-color: rgb(139, 0, 109);
+}
+
+.fizz-buzz {
+    background-color: rgb(139, 83, 0);
+}
