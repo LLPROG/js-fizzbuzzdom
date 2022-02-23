@@ -20,7 +20,9 @@ for (let i = 1; i <= 100; i++) {
         element.innerHTML= 'buzz';
     } 
 
-    areaBoxs.append(element)
+    areaBoxs.append(element);
+    
+    
 }
 
 

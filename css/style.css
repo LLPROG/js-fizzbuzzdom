@@ -15,6 +15,8 @@
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
+    background-color: #f3f3f3;
+    justify-content: center;
 }
 
 /*class to add */
@@ -25,19 +27,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkcyan;
-    color: white;
+    color: black;
+    margin: 0.5rem;
+    border-radius: 25px;
+    background: #e0e0e0;
+    box-shadow: inset 3px 3px 5px #bebebe,
+        inset -3px -3px 5px #ffffff;
+
+    cursor: pointer;
+
 }
 
 
 .fizz {
-    background-color: rgb(21, 0, 139);
+    background: linear-gradient(145deg, #cb8080, #f19898);
+    box-shadow: inset 3px 3px 5px #815c5c,
+        inset -3px -3px 5px #ffffff;
 }
 
 .buzz {
-    background-color: rgb(139, 0, 109);
+    background: linear-gradient(145deg, #a980cb, #c998f1);
+    box-shadow: inset 3px 3px 5px #8633ca,
+        inset -3px -3px 5px #ae9cbd;
 }
 
 .fizz-buzz {
-    background-color: rgb(139, 83, 0);
+    background: linear-gradient(145deg, #549b83, #64b89c);
+    box-shadow: inset 3px 3px 5px #0d553d,
+        inset -3px -3px 5px #a7c2b9;
 }
